@@ -1,0 +1,117 @@
+In[1]:
+#Area of circle using
+ math function import math
+ r=float(input("Enter the radius of circle:"))
+ A=math.pi*r*r
+ print("The Area of circle is",A) 
+
+Enter the radius of circle:
+6 
+The Area of circle is 113.09733552923255 
+
+In [2]:
+
+#Area of Regular polygon using
+ math function import math
+ n=int(input("Enter No.of sides of the polygon:")) 
+s=int(input("Enter the length of each side:")) 
+P=s*n print("The Perimeter of regular polygon is",P) 
+a=s/(2*math.tan(math.pi/n))
+ print("The Apothem of the regular poygon is",a) 
+A=(P*a)/2
+ print("The Area of regular polygon is",A) 
+
+Enter No.of sides of the polygon:
+6 
+Enter the length of each side:
+10 
+The Perimeter of regular polygon is 60
+ The Apothem of the regular poygon is 8.660254037844387 
+The Area of regular polygon is 259.8076211353316 
+
+In [3]:
+
+#Area of Segment of the circle using
+ math function import math
+ r=float(input("Enter the radius of circle:"))
+ angle=float(input("Enter the angle of the segment:")) 
+A=(math.pi*r**2)*(angle/360) 
+print("The Area of segment is",A) 
+
+Enter the radius of circle:
+6 
+Enter the angle of the segment:
+45 
+The Area of segment is 14.137166941154069 
+
+In [4]:
+
+#Randomly Shuffle the given
+ list import random l1=[100,1,2,3,30,40,"hai","hello"]
+ print("Original list:",l1)
+ random.shuffle(l1) 
+print("List after first shuffle:",l1) 
+random.shuffle(l1) 
+print("List after second shuffle:",l1) 
+random.shuffle(l1) 
+print("List after third shuffle:",l1) 
+random.shuffle(l1)
+ print("List after fourth shuffle:",l1)
+ random.shuffle(l1)
+ print("List after fifth shuffle:",l1) 
+
+Original list:
+ [100, 1, 2, 3, 30, 40, 'hai', 'hello'] 
+List after first shuffle: 
+['hai', 30, 1, 3, 100, 40, 2, 'hello'] 
+List after second shuffle: 
+[30, 3, 1, 2, 100, 'hello', 40, 'hai'] 
+List after third shuffle: 
+[1, 'hello', 100, 'hai', 2, 30, 3, 40]
+ List after fourth shuffle: 
+[30, 1, 40, 'hai', 100, 3, 'hello', 2]
+ List after fifth shuffle: 
+[100, 1, 30, 'hello', 3, 'hai', 40, 2] 
+
+In [5]:
+
+#Random numbers between 
+1 and 10000 with random 
+difference 50
+ import random 
+ print("First shuffle",random.randrange(0,10001,50)) 
+print("Second shuffle",random.randrange(0,10001,50)) 
+print("Third shuffle",random.randrange(0,10001,50)) 
+
+First shuffle 5550
+ Second shuffle 3050 
+Third shuffle 4000 
+
+In [6]:
+
+#Functioning of Cmath
+ import cmath
+ print("The value of Sin(60) is",math.sin((math.pi)/3)) 
+print("The value of Cos(pi) is",math.cos(math.pi)) 
+print("The value of Tan(90) is",math.tan((math.pi)/2))
+ print("The Angle Sin inverse of 0.8660254037844386 is",(math.asin(0.8660254037844386))*57.2958,"Degrees") 
+print("The value of 5^8 is",5^8) 
+print("The Square root value of 400 is",math.sqrt(400)) 
+print("The Value of 5^e is",5^int((math.e))) 
+print("The value of Log(1024) for base 2 is",math.log(1024,2)) 
+print("The value of Log(1024) for base 10 is",math.log(1024,10)) 
+print("The Floor value of 23.56 is",math.floor(23.56)) 
+print("The Ceil value of 23.56 is",math.ceil(23.56)) 
+
+The value of Sin(60) is 0.8660254037844386 
+The value of Cos(pi) is -1.0 
+The value of Tan(90) is 1.633123935319537e+16 
+The Angle Sin inverse of 0.8660254037844386 is 60.00002145385002 
+Degrees The value of 5^8 is 13 
+The Square root value of 400 is 20.0 
+The Value of 5^e is 7 
+The value of Log(1024) for base 2 is 10.0
+ The value of Log(1024) for base 10 is 3.0102999566398116 
+The Floor value of 23.56 is 23 
+The Ceil value of 23.56 is 24
+
